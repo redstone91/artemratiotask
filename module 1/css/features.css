@@ -1,0 +1,146 @@
+.features {
+}
+
+.features__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.features__text {
+    text-align: center;
+    max-width: 584px;
+    margin: 0 auto;
+
+    margin-bottom: 100px;
+}
+
+.features__row {
+    display: flex;
+    max-width: 1165px;
+    margin: -25px -22.5px;
+    flex-wrap: wrap;
+}
+.features__column {
+    padding: 25px 22.5px;
+    flex: 0 1 50%;
+}
+.features__item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+}
+.item_back-1 {
+    background: url("./../img/back-1.png") top right / cover no-repeat;
+}
+.item_back-2 {
+    background: url("./../img/back-2.png") top right / cover no-repeat;
+}
+.item_back-3 {
+    background: url("./../img/back-3.png") top right / cover no-repeat;
+}
+.item_back-4 {
+    background: url("./../img/back-4.png") top right / cover no-repeat;
+}
+
+.item__row {
+    display: flex;
+    flex: 1 1 auto;
+}
+.item__image {
+}
+.item__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item__image_pic-1 {
+    flex: 0 0 232px;
+    margin-top: 73px;
+}
+.item__image_pic-2 {
+    flex: 0 0 241px;
+    margin-top: 71px;
+}
+.item__image_pic-3 {
+    flex: 0 0 226px;
+    margin-top: 133px;
+}
+.item__image_pic-4 {
+    flex: 0 0 235px;
+    margin-top: 84px;
+}
+.item__body {
+    flex: 1 1 auto;
+    padding: 49px 49px 33px 29px;
+
+    display: flex;
+    flex-direction: column;
+}
+.item__subtitle {
+    font-size: 24px;
+    line-height: 130%;
+    color: #212353;
+    margin-bottom: 20px;
+}
+.item__text {
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+}
+
+.item__link {
+    position: relative;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+
+    width: 127px;
+
+    transition: all 0.3s ease 0s;
+}
+
+.item__link::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    background: url("./../img/arrowviolet.svg") 0 0 / contain no-repeat;
+    top: 6px;
+    right: 0px;
+}
+
+.item__link:hover {
+    color: #9c69e2;
+}
+
+@media (max-width: 1070px) {
+    .features__row {
+        justify-content: center;
+    }
+
+    .features__column {
+        flex: 0 1 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .item__row {
+        flex-direction: column;
+    }
+    .item__image {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .item__body {
+        padding: 0 25px 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .features__column {
+        flex: 0 1 100%;
+    }
+}

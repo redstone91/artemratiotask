@@ -1,0 +1,119 @@
+.testimonials {
+}
+.testimonials__body {
+    background: #9c69e2;
+    border-radius: 50px;
+
+    padding: 109px 93px 93px;
+
+    overflow: hidden;
+}
+
+.testimonials__title {
+    color: #fff;
+    margin-bottom: 88px;
+}
+
+.testimonials__slider {
+    display: flex;
+    margin: 0px -10px;
+    margin-bottom: 58px;
+}
+.testimonials__slide {
+    padding: 0 10px;
+    flex: 0 0 645px;
+}
+.testimonials__comment {
+    height: 100%;
+    padding: 60px 70px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 20px 0px 0px #8a56db;
+    display: flex;
+}
+
+.comment {
+}
+
+.comment__avatar {
+    margin-right: 30px;
+}
+
+.comment__avatar img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.comment__body {
+    margin-top: 20px;
+}
+
+.comment__author {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+
+.comment__job {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #9c69e2;
+
+    margin-bottom: 19px;
+}
+
+.comment__text {
+    margin-top: 19px;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4b5d68;
+    max-width: 385px;
+}
+
+.testimonials__controls {
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonials__dots {
+    display: flex;
+    align-items: center;
+}
+.slider_button {
+    background-color: transparent;
+}
+.dot__btn {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-right: 10px;
+}
+
+.dot__btn--active {
+    width: 10px;
+    height: 10px;
+    background: #f063b8;
+}
+
+.testimonials__arrow {
+    display: flex;
+    align-items: center;
+}
+.left__btn {
+    width: 40px;
+    height: 14px;
+    background: url("./../img/arrowleft.svg") 0 0 / contain no-repeat;
+    margin-right: 20px;
+}
+.right__btn {
+    width: 20px;
+    height: 14px;
+    background: url("./../img/arrowright.svg") 0 0 / contain no-repeat;
+}
