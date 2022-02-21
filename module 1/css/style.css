@@ -1,4 +1,8 @@
 body {
+    /* не задана мин ширина страницы */
+    /* не заданы дефолтные стлили для шрифтов */
+    /* не подключен normalize */
+    /* цвета надо выносить в отдельные переменные */
     font-family: "Ubuntu", sans-serif;
 }
 .wrapper {
@@ -9,6 +13,11 @@ body {
 .container {
     max-width: 1248px;
     margin: 0 auto;
+    /* box-sizing вешать надр на все блоки
+        * {
+             box-sizing: content-box;
+        }
+    */
     box-sizing: content-box;
     padding: 0 15px;
 }
