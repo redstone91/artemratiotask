@@ -59,7 +59,9 @@
                 </div>
             </div>
         </header>
+<!--   вся страница сидит в одном общем контейнере class="container"     -->
         <main class="main">
+<!--      main__start - main__ у секций лишние это уже отдельные блоки   -->
             <section class="main__start start">
                 <div class="container">
                     <div class="start__row">
@@ -77,6 +79,7 @@
                             </a>
                         </div>
                         <div class="start__image">
+<!--                  нет alt          -->
                             <img src="./img/storage.png">
                         </div>
                     </div>
@@ -116,6 +119,7 @@
                             <div class="features__item item item_back-1">
                                 <div class="item__row">
                                     <div class="item__image item__image_pic-1">
+<!--                 alt  пустой  и тд ниже                     -->
                                         <img src="./img/search-data.png" alt="">
                                     </div>
                                     <div class="item__body">
@@ -132,8 +136,10 @@
                                 </div>
                             </div>
                         </div>
+<!--               это список         -->
                         <div class="features__column">
                             <div class="features__item item item_back-2">
+<!--             item__row этот див лишний,                   -->
                                 <div class="item__row">
                                     <div class="item__image item__image_pic-2">
                                         <img src="./img/24-hours.png" alt="">
@@ -218,6 +224,7 @@
                                         <img src="./img/john.png" alt="">
                                     </div>
                                     <div class="comment__body">
+<!--               John Fang тут тэг span - это не абзац и тд ниже                         -->
                                         <p class="comment__author">
                                             John Fang
                                         </p>
@@ -266,6 +273,8 @@
                                 <button class="slider__button dot__btn"></button>
                             </div>
                             <div class="testimonials__arrow">
+                                <!--    в данной ситуации для кнопок надо предусмотреть span с текстом который скрыть visually-hidden, если стили не подгрузятся, то пользователю не будет понятен функционал    -->
+
                                 <button class="slider__button left__btn"></button>
                                 <button class="slider__button right__btn"></button>
                             </div>
